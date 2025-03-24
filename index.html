@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResumePro - ATS Scanner & Resume Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+            <div class="logo-container">
+                <img src="/MSCCS/companyats/logo.png" alt="ResumePro logo">
+                <h1 class="resumepro-title">Resume</h1>
+            </div>
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="contact.html">Contact</a>
+            
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Build Your Perfect Resume</h1>
+        <p>Optimize your resume with our ATS Scanner & Resume Builder</p>
+        <a href="#services" class="btn">Get Started</a>
+    </section>
+
+    <section id="about" class="about">
+            <h2>About ResumePro</h2>
+            <p>At ResumePro, we empower job seekers by helping them create professional resumes that stand out. Our AI-powered ATS scanner ensures your resume is optimized for job applications.</p>
+            <p>With an easy-to-use interface and cutting-edge analysis tools, we help you craft resumes that pass through ATS filters and increase your chances of landing your dream job.</p>
+        
+    </section>
+
+    <!-- Image Slider Section -->
+    <section id="image-slider" class="image-slider">
+        <div class="slider">
+            <img src="/MSCCS/companyats/customize.jpeg" alt="Resume Example">
+            <img src="/MSCCS/companyats/builder.jpeg" alt="ATS Analysis">
+            <img src="/MSCCS/companyats/tips.jpeg" alt="Job Application">
+            <img src="/MSCCS/companyats/image.jpeg" alt="Interview Success">
+            <img src="/MSCCS/companyats/anires.jpeg" alt="Professional CV">
+            <img src="/MSCCS/companyats/anres.jpeg" alt="Animated CV">
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-box">
+            <h3>ATS Scanner</h3>
+            <p>Upload your resume to check its ATS compatibility.</p>
+            <form id="uploadForm" enctype="multipart/form-data">
+                <input type="file" id="resumeFile" name="resume" required>
+                <button type="submit" class="service-btn">Upload & Scan</button>
+            </form>
+            <p id="uploadStatus"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 ResumePro. All rights reserved.</p>
+        <p>Contact: <a href="mailto:your-example@gmail.com">your-example@gmail.com</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
